@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "lassaclient",
+  "version": "${version}",
+  "name": "Lassa.gg Client",
+  "description": "A custom Minecraft client mod for Lassa.gg featuring HUD tweaks, Freelook, Zoom, Hitbox Display, Reach Display, and Totem Counter.",
+  "authors": [
+    "Lassa.gg Team"
+  ],
+  "contact": {
+    "homepage": "https://lassa.gg"
+  },
+  "license": "MIT",
+  "icon": "assets/lassaclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gg.lassa.client.LassaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
